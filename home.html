@@ -8,11 +8,12 @@
     <title>The Canteloupe</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body style="background-color:whitesmoke">
-    <div class="container">
+    <div class="container bg-white">
         <div class="row">
             <div class="col-md-12 bg-primary">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -45,19 +46,47 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center bg-secondary shadow p-3 mb-5 bg-white rounded">
-                    <div id="show"></div>                
+                <div class="weather" id="show"></div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron border-dark bg-secondary shadow p-3 mb-5 bg-white rounded">
-                    <img src="http://placehold.it/400x400" class="" alt="">
+            <div class="col-md-4">
+                <div class="card bg-secondary shadow p-3 mb-5 bg-white rounded">
+                    <img class="card-image-body" src="http://placehold.it/100x300" alt="">
+                    <div class="card-body">
+                        <h5 id="headline 2" class="text-center">HEADLINE 2</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde odit culpa repellendus, non,
+                            voluptate officia magni nemo fugiat hic vitae quia dolor accusantium similique ad odio quo sequi
+                            deleniti sed veniam mollitia. Officia ex est iusto quo quasi iure, omnis assumenda iste
+                            asperiores pariatur ab nulla dolorem. Dolorum, error eaque!
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-            
+            <div class="col-md-6">
+                <div class="jumbotron border border-dark bg-secondary shadow p-3 mb-5 bg-white rounded">
+                    <h2 id="Headline 1" class="text-center">HEADLINE 1</h2>
+                    <img src="http://placehold.it/500x400" class="" alt="">
+                    <br>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem a illum nam repellendus
+                        possimus nemo sapiente nihil natus obcaecati dignissimos dolore molestiae sequi quo expedita
+                        neque impedit, officiis quis eum deserunt, rerum ipsam iste. Fugiat non suscipit repellendus,
+                        culpa beatae quidem enim perspiciatis dignissimos eos nulla cum nihil, nemo voluptas!
+                        Voluptates, quod. Accusantium tempore vero similique possimus. Vel sint dolorem vitae quaerat
+                        veniam ab officiis tempora repudiandae, quae ipsam, sunt delectus in expedita, temporibus
+                        veritatis itaque sequi fuga deserunt nostrum odit accusantium dignissimos. Non aperiam quia
+                        ullam. Eius placeat ipsum doloribus sit. Aliquid rerum mollitia quae blanditiis iste in!
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
 
-    </div>    
+            </div>
+        </div>
+
+
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -67,6 +96,7 @@
         crossorigin="anonymous"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/animate.js"></script>
 </body>
 
 </html>
