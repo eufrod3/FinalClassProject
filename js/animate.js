@@ -1,15 +1,15 @@
 $(document).ready(function(){
     $("div.weather").mouseover(function(){
-        $("div.weather").addClass("animated pulse").one("animationend", function(){
-            $(this).removeClass("animated pulse");
+        $("div.weather").addClass("animated heartBeat slow").one("animationend", function(){
+            $(this).removeClass("animated heartBeat slow");
         });
     });    
 });
 
 $(document).ready(function(){
-    $("div.jumbotron").mouseover(function(){
-        $("div.jumbotron").addClass("animated swing").one("animationend", function(){
-            $(this).removeClass("animated swing");
+    $("div.jumbotron").mouseenter(function(){
+        $("div.jumbotron").addClass("animated headShake faster").one("animationend", function(){
+            $(this).removeClass("animated headShake faster");
         });
     });    
 });
