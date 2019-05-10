@@ -1,10 +1,10 @@
-$(document).ready(function(){
-    $("div.weather").mouseover(function(){
-        $("div.weather").addClass("animated headShake slower").one("animationend", function(){
-            $(this).removeClass("animated headShake slower");
-        });
-    });    
-});
+// $(document).ready(function(){
+//     $("div.weather").mouseover(function(){
+//         $("div.weather").addClass("animated headShake slower").one("animationend", function(){
+//             $(this).removeClass("animated headShake slower");
+//         });
+//     });    
+// });
 
 $(document).ready(function(){
     $("a.navbar-brand").mouseenter(function(){
