@@ -15,10 +15,21 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("div.weather").mouseenter(function(){
-        $("div.weather").css("background-color", "yellow");
-        });
-    $("div.weather").mouseleave(function(){
-        $("div.weather").css("background-color", "white");
+    $("div.dtTemp").mouseenter(function(){
+        $("div.dtTemp").css("background-color", "#427AA1");
+        $("div.dtTemp").css("color", "white");        
+    });
+    $("div.dtTemp").mouseleave(function(){
+        $("div.dtTemp").css("background-color", "white");
+        $("div.dtTemp").css("color", "black");        
     });
 });
+
+// $(document).ready(function(){
+//     $("div.dtTemp").mouseenter(function(){
+//         $("div.dtTemp").addClass("bg-primary");
+//         });
+//     $("div.dtTemp").mouseleave(function(){
+//         $("div.dtTemp").addClass("bg-white");
+//     });
+// });

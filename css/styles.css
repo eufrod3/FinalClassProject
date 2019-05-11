@@ -1,0 +1,34 @@
+.body{
+    font-size: .625rem;
+}
+
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8rem;
+    padding-left: .5rem;
+}
+
+.footer{
+    padding-left: .5rem;
+}
+
+.navbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+}
+#datetime{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+    padding-left: .5rem;
+}
+
+.weather{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+}
+
+.dtTemp{
+    padding-top: .75rem;
+    
+       
+}
