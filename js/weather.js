@@ -18,3 +18,8 @@ $(document).ready(function () {
 function show(data){
     return "<h3>Current Temperature in Dallas: " + Math.round(data.main.temp) + "\xB0" + "F" + " </h3>"
 }
+
+$(docment).ready(function(){
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+});
